@@ -13,6 +13,9 @@ if (new Date().getMonth() === 20) {
 	localStorage.removeItem("user");
 }
 
-document.getElementsByTagName("button")[0].addEventListener("click", () => {
+document.getElementsByClassName("button")[0].addEventListener("click", () => {
+	alert("hi");
+});
+document.getElementsByClassName("button")[1].addEventListener("click", () => {
 	alert("hi");
 });
