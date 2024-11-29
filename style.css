@@ -1,3 +1,7 @@
+body {
+	text-align: center;
+	justify-content: center;
+}
 h1 {
 	font-size: 40px;
 	line-height: 1;
@@ -7,5 +11,14 @@ h1 {
 p {
 	background-color: rgb(104, 6, 104);
 	color: rgb(233, 136, 233);
+	display: inline-block;
+	padding: 6px;
 }
 td { font-size: 16px; }
+#dont {
+	color: rgb(159, 73, 181);
+}
+button {
+	color: rgb(233, 136, 233);
+	background-color: rgb(104, 6, 104);
+}
